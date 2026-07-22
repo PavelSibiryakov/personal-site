@@ -1,3 +1,6 @@
+# Ignore all Obsidian configuration by default
+.obsidian/*
+
 # Bundler cache
 .bundle
 vendor
