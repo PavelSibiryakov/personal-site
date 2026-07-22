@@ -3,6 +3,4 @@
 icon: fas fa-info-circle
 order: 4
 ---
-
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+Добро пожаловать на сайт Павла Сибирякова, т.е. меня. Я студент-целевик ИВТ в СПбПУ (Политех). Тут будет отражены: мой путь до CCNA, networking, homelabbing, proxmox, linux и всё из этого вытекающего, а также истории из жизни и прочее.
