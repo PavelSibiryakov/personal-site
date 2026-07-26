@@ -23,21 +23,21 @@ tags: [docker, minecraft, lxc]     # TAG names should always be lowercase
 ```
 |-- neoforge
 |   |-- config
-|	|	`-- neovelocity-common.toml
+|   |   `-- neovelocity-common.toml
 |   `-- mods
 |       `-- neovelocity-1.2.6+1.21.1-1.21.5.jar
 |-- neoforge-auth
 |   |-- config
-|	|	`-- neovelocity-common.toml
+|   |   `-- neovelocity-common.toml
 |   `-- mods
 |       `-- neovelocity-1.2.6+1.21.1-1.21.5.jar
 `-- velocity
-	|-- forwarding.secret		# После запуска
-	|-- velocity.toml 			# После запуска
+    |-- forwarding.secret		# После запуска
+    |-- velocity.toml 			# После запуска
     `-- plugins
-	    |-- veloauth			# После запуска
-		|	`-- config.yml		# После запуска
-		`-- veloauth-1.3.1.jar
+        |-- veloauth			# После запуска
+        |   `-- config.yml		# После запуска
+        `-- veloauth-1.3.1.jar
 ```
   
 ## Docker compose
