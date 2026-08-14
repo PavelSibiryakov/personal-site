@@ -56,7 +56,6 @@ cat > /etc/ufw/after.rules<<EOF
 
 -A DOCKER-USER -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
 -A DOCKER-USER -m conntrack --ctstate INVALID -j DROP
-#-I DOCKER-USER 2 -p tcp --dport 2283 -s 192.168.1.155 -j ACCEPT
 -A DOCKER-USER -i eth0 -j DROP
 
 # don't delete the 'COMMIT' line or these rules won't be processed
